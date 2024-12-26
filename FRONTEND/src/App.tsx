@@ -1,11 +1,14 @@
-import "./App.css";
+import './App.css'
+import Converter from "./containers/Converter.tsx";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-const App = () => {
+function App() {
+
   return (
     <>
-      <div></div>
+      <Converter></Converter>
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App
